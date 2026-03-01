@@ -5,6 +5,7 @@ A small example website, deployed with Node.js.
 ## Deployment
 
 ```text
+npm install
 npm run build
 ```
 
