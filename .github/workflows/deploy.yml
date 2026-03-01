@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: latest
       - run: npm install
-      - run: npx vite build --base=/NodeWebsiteTest/
+      - run: npx vite build --base=/${{ github.event.repository.name }}/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
