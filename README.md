@@ -1,6 +1,6 @@
 # Node Website Test
 
-A small example website, deployed with Node.js.
+A small example website, built with Node.js and deployed to GitHub Pages.
 
 ## Deployment
 
